@@ -1,0 +1,599 @@
+
+
+Argument list to program
+
+
+--dataset connect-4
+--train_test_split 0.2
+--model dtree
+--log_interval 5
+--batch_size 1
+--epochs 50
+--lr 0.05
+--seed 11
+--max_depth 5
+--splitting_criteria gini
+--print_tree True
+
+Learning the Tree
+
+
+Learning took 4.910460472106934 seconds
+Depth of tree learned is 5
+
+Check a1 ?
+===============
+If a1 is o:
+
+		Check b1 ?
+		===============
+		If b1 is o:
+
+				Check g1 ?
+				===============
+				If g1 is o:
+
+						Check d3 ?
+						===============
+						If d3 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If d3 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If d3 is x:
+
+								Class : win
+								-----Leaf-----
+
+				If g1 is b:
+
+						Check d3 ?
+						===============
+						If d3 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If d3 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If d3 is x:
+
+								Class : win
+								-----Leaf-----
+
+				If g1 is x:
+
+						Check c3 ?
+						===============
+						If c3 is o:
+
+								Class : loss
+								-----Leaf-----
+
+						If c3 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If c3 is x:
+
+								Class : win
+								-----Leaf-----
+
+		If b1 is b:
+
+				Check d1 ?
+				===============
+				If d1 is o:
+
+						Check d3 ?
+						===============
+						If d3 is o:
+
+								Class : draw
+								-----Leaf-----
+
+						If d3 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If d3 is x:
+
+								Class : win
+								-----Leaf-----
+
+				If d1 is b:
+
+						Check g1 ?
+						===============
+						If g1 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If g1 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If g1 is x:
+
+								Class : win
+								-----Leaf-----
+
+				If d1 is x:
+
+						Check d3 ?
+						===============
+						If d3 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If d3 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If d3 is x:
+
+								Class : win
+								-----Leaf-----
+
+		If b1 is x:
+
+				Check c3 ?
+				===============
+				If c3 is o:
+
+						Check b2 ?
+						===============
+						If b2 is o:
+
+								Class : loss
+								-----Leaf-----
+
+						If b2 is b:
+
+								Class : loss
+								-----Leaf-----
+
+						If b2 is x:
+
+								Class : win
+								-----Leaf-----
+
+				If c3 is b:
+
+						Check c2 ?
+						===============
+						If c2 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If c2 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If c2 is x:
+
+								Class : win
+								-----Leaf-----
+
+				If c3 is x:
+
+						Check c4 ?
+						===============
+						If c4 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If c4 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If c4 is x:
+
+								Class : win
+								-----Leaf-----
+
+If a1 is b:
+
+		Check g1 ?
+		===============
+		If g1 is o:
+
+				Check g2 ?
+				===============
+				If g2 is o:
+
+						Check d3 ?
+						===============
+						If d3 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If d3 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If d3 is x:
+
+								Class : win
+								-----Leaf-----
+
+				If g2 is b:
+
+						Check d3 ?
+						===============
+						If d3 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If d3 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If d3 is x:
+
+								Class : win
+								-----Leaf-----
+
+				If g2 is x:
+
+						Check g3 ?
+						===============
+						If g3 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If g3 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If g3 is x:
+
+								Class : win
+								-----Leaf-----
+
+		If g1 is b:
+
+				Check d3 ?
+				===============
+				If d3 is o:
+
+						Check d4 ?
+						===============
+						If d4 is o:
+
+								Class : loss
+								-----Leaf-----
+
+						If d4 is b:
+
+								Class : loss
+								-----Leaf-----
+
+						If d4 is x:
+
+								Class : win
+								-----Leaf-----
+
+				If d3 is b:
+
+						Check c3 ?
+						===============
+						If c3 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If c3 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If c3 is x:
+
+								Class : win
+								-----Leaf-----
+
+				If d3 is x:
+
+						Check d2 ?
+						===============
+						If d2 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If d2 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If d2 is x:
+
+								Class : win
+								-----Leaf-----
+
+		If g1 is x:
+
+				Check g2 ?
+				===============
+				If g2 is o:
+
+						Check g3 ?
+						===============
+						If g3 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If g3 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If g3 is x:
+
+								Class : win
+								-----Leaf-----
+
+				If g2 is b:
+
+						Check f1 ?
+						===============
+						If f1 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If f1 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If f1 is x:
+
+								Class : loss
+								-----Leaf-----
+
+				If g2 is x:
+
+						Check g3 ?
+						===============
+						If g3 is o:
+
+								Class : loss
+								-----Leaf-----
+
+						If g3 is b:
+
+								Class : loss
+								-----Leaf-----
+
+						If g3 is x:
+
+								Class : loss
+								-----Leaf-----
+
+If a1 is x:
+
+		Check d1 ?
+		===============
+		If d1 is o:
+
+				Check d2 ?
+				===============
+				If d2 is o:
+
+						Check c2 ?
+						===============
+						If c2 is o:
+
+								Class : loss
+								-----Leaf-----
+
+						If c2 is b:
+
+								Class : loss
+								-----Leaf-----
+
+						If c2 is x:
+
+								Class : win
+								-----Leaf-----
+
+				If d2 is b:
+
+						Check b2 ?
+						===============
+						If b2 is o:
+
+								Class : loss
+								-----Leaf-----
+
+						If b2 is b:
+
+								Class : loss
+								-----Leaf-----
+
+						If b2 is x:
+
+								Class : win
+								-----Leaf-----
+
+				If d2 is x:
+
+						Check d3 ?
+						===============
+						If d3 is o:
+
+								Class : loss
+								-----Leaf-----
+
+						If d3 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If d3 is x:
+
+								Class : win
+								-----Leaf-----
+
+		If d1 is b:
+
+				Check c2 ?
+				===============
+				If c2 is o:
+
+						Check g1 ?
+						===============
+						If g1 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If g1 is b:
+
+								Class : loss
+								-----Leaf-----
+
+						If g1 is x:
+
+								Class : loss
+								-----Leaf-----
+
+				If c2 is b:
+
+						Check a2 ?
+						===============
+						If a2 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If a2 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If a2 is x:
+
+								Class : win
+								-----Leaf-----
+
+				If c2 is x:
+
+						Check c3 ?
+						===============
+						If c3 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If c3 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If c3 is x:
+
+								Class : win
+								-----Leaf-----
+
+		If d1 is x:
+
+				Check d3 ?
+				===============
+				If d3 is o:
+
+						Check c1 ?
+						===============
+						If c1 is o:
+
+								Class : loss
+								-----Leaf-----
+
+						If c1 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If c1 is x:
+
+								Class : loss
+								-----Leaf-----
+
+				If d3 is b:
+
+						Check d2 ?
+						===============
+						If d2 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If d2 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If d2 is x:
+
+								Class : win
+								-----Leaf-----
+
+				If d3 is x:
+
+						Check d4 ?
+						===============
+						If d4 is o:
+
+								Class : win
+								-----Leaf-----
+
+						If d4 is b:
+
+								Class : win
+								-----Leaf-----
+
+						If d4 is x:
+
+								Class : win
+								-----Leaf-----
+
+win
+win
+
+=======================================
+
+Accuracy of Decision tree : 70.13765541740675
+
+=======================================
+
+f1_score of Decision tree : 0.4289680564090974
+
+=======================================
+
