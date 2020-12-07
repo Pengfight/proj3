@@ -13,3 +13,15 @@ python -m hw3.models.runModels --dataset connect-4 --train_test_split 0.2 --mode
 ```sh
 python -m hw3.models.runModels --dataset connect-4 --train_test_split 0.2 --model nnet --log_interval 5 --batch_size 1 --epochs 50 --lr 0.05 --seed 12
 ```
+### SVM
+```sh
+python -m hw3.models.runModels --dataset connect-4 --model svm
+```
+### Logistic Regression
+```sh
+python -m hw3.models.runModels --dataset connect-4 --model lr
+```
+### Random Forest
+```sh
+python -m hw3.models.runModels --dataset connect-4 --model rf
+```
